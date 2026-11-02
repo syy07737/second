@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  color: #ff0000;
+}
+h2 {
+  border-bottom: 2px solid #333333;
+  padding-bottom: 4px;
+}
+table, th, td {
+  border: 1px solid #333333;
+  border-collapse: collapse;
+}
+.favorite {
+  color: #cc3300;
+  font-weight: bold;
+}

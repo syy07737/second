@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>自己紹介</title>
+</head>
+<body>
+    <h1>はじめまして</h1>
+    <p>私は石と申します。中国のハルビンから来ました。</p>
+    <p>名古屋国際工科専門学校のIT学科に入学しました。</p>
+    <p>日本に来て、もう三年になります。</p>
+    <p>趣味はサッカーとゲームです。</p>
+    <p>今はPythonやLinuxを勉強しています。将来は日本でIT関係の仕事に就きたいです。</p>
+    <p>日本語はまだ上手ではありませんが、一生懸命頑張ります。</p>
+</body>
+</html>
+<h2>1週間の予定</h2>
+<table border="1">
+  <tr>
+    <th>月曜日</th>
+    <td>授業</td>
+    <td>アルバイト</td>
+  </tr>
+  <tr>
+    <th>火曜日</th>
+    <td>授業</td>
+    <td>部活</td>
+  </tr>
+  <tr>
+    <th>水曜日</th>
+    <td>授業</td>
+    <td>アルバイト</td>
+  </tr>
+</table>
+<h2>このページの感想を送る</h2>
+<form method="get">
+<dl>
+  <dt><label for="visitor-name">お名前
+  </label></dt>
+  <dd><input type="text" id="visitor-name" name="visitor-name" required placeholder="ねこ太郎"></dd>
+
+  <dt>いちばんよかったところ</dt>
+  <dd>
+    <label><input type="radio" name="best" value="photo">写真</label>
+    <label><input type="radio" name="best" value="list">好きなもの</label>
+    <label><input type="radio" name="best" value="table">予定の表</label>
+  </dd>
+
+  <dt><label for="comment">感想</label></dt>
+  <dd><textarea id="comment" name="comment" rows="4"></textarea></dd>
+</dl>
+<button type="submit">送信する</button>
+</form>
